@@ -1,0 +1,4 @@
+insert into Gakusei values(98101,'HK', 'Yamada', 'A');
+insert into Gakusei values(98102,'TN', 'Hatoyama', 'B');
+insert into Gakusei values(98103,'YM', 'Sakado', 'A');
+insert into Gakusei values(98104,'HN', 'Kawagoe', 'C');

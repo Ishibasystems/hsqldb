@@ -1,0 +1,7 @@
+create table Gakusei 
+    (GakusekiNo INTEGER, 
+     Name VARCHAR(10), 
+     Address VARCHAR(10),  
+     HighSchool VARCHAR(10),
+     Primary Key(GakusekiNo));
+

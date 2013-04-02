@@ -1,0 +1,23 @@
+create table Gakusei 
+    (GakusekiNo INTEGER, 
+     Name VARCHAR, 
+     Address VARCHAR,  
+     HighSchool VARCHAR,
+     Primary Key(GakusekiNo));
+
+insert into Gakusei values(98101,'HK', 'Yamada', 'A');
+insert into Gakusei values(98102,'TN', 'Hatoyama', 'B');
+insert into Gakusei values(98103,'YM', 'Sakado', 'A');
+insert into Gakusei values(98104,'HN', 'Kawagoe', 'C');
+
+
+create table Rishu
+    (GakusekiNo INTEGER, 
+     KamokuNo VARCHAR, 
+     Seiseki CHAR,
+     Primary Key(GakusekiNo, KamokuNo));
+
+insert into Rishu values(98101, 'CS101', 'A');
+insert into Rishu values(98101, 'CS102', 'B');
+insert into Rishu values(98102, 'CS101', 'B');
+insert into Rishu values(98103, 'CS103', 'C');

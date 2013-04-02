@@ -1,0 +1,30 @@
+create table R1 
+    (UserCode INTEGER, 
+     UserName VARCHAR, 
+     UserAddress VARCHAR,  
+     Primary Key(UserCode));
+
+create table R2 
+    (ShopCode VARCHAR, 
+     ShopAddress VARCHAR,  
+     Primary Key(ShopCode));
+
+create table R3 
+    (ProductCode VARCHAR, 
+     ProductName VARCHAR, 
+     Price INTEGER,  
+     Primary Key(ProductCode));
+
+create table R4 
+    (SalesCode VARCHAR, 
+     UserCode VARCHAR, 
+     ShopCode INTEGER,  
+     ProductCode VARCHAR, 
+     ItemNumber INTEGER,  
+     Primary Key(SalesCode));
+
+insert into Gakusei values(98101,'HK', 'Yamada', 'A');
+insert into Gakusei values(98102,'TN', 'Hatoyama', 'B');
+insert into Gakusei values(98103,'YM', 'Sakado', 'A');
+insert into Gakusei values(98104,'HN', 'Kawagoe', 'C');
+
